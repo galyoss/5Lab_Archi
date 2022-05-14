@@ -10,7 +10,7 @@ int main(int argc, char **argv){
     char buff[1024];
     int exit;
 	while(1) {
-	    if (exit==0)
+	    if (exit==1)
             break;
 	    printf("user@%s >> ", cwd);
         fgets(buff, 1024, stdin);
