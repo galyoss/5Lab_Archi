@@ -3,6 +3,10 @@
 #include <limits.h>
 #include "LineParser.h"
 
+int execute(cmdLine *pCmdLine){
+    return 0;
+}
+
 int main(int argc, char **argv){ 
 
 	printf("Starting the program\n");
@@ -10,7 +14,8 @@ int main(int argc, char **argv){
     char buff[1024];
     int exit;
 	while(1) {
-	    if (exit==1)
+        getcwd(cwd, 2048;)
+        if (exit==1)
             break;
 	    printf("user@%s >> ", cwd);
         fgets(buff, 1024, stdin);
