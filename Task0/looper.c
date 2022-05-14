@@ -14,7 +14,7 @@ int main(int argc, char **argv){
     char buff[1024];
     int exit;
 	while(1) {
-        getcwd(cwd, 2048;)
+        getcwd(cwd, 2048);
         if (exit==1)
             break;
 	    printf("user@%s >> ", cwd);
