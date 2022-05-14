@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <unistd.h>
 #include <limits.h>
-#include <LineParser.h>
+#include "LineParser.h"
 
 int main(int argc, char **argv){ 
 
