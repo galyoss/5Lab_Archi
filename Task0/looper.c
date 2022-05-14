@@ -8,10 +8,9 @@ int main(int argc, char **argv){
 	printf("Starting the program\n");
     char cwd[2048];
     char buff[1024];
-    FILE* stdinput = fopen(STDIN_FILENO, "r");
 	while(1) {
 	    printf("user@%s >> ", cwd);
-        fgets(buff, 1024, stdinput);
+        fgets(buff, 1024, STDIN);
         cmdLine * cmd =  parseCmdLines(buff);
         printf("%d\n", cmd->argCount);
 	}
